@@ -42,6 +42,6 @@ run:
 
 .PHONY: clean
 clean:
-	rm -fr $(OBJ_DIR) akinator $(DEP_DIR)
+	rm -fr $(OBJ_DIR) $(EXEC) $(DEP_DIR)
 
 -include $(DEP)/*.d
